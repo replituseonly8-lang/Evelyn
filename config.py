@@ -20,7 +20,7 @@ API_KEY = os.getenv("API_KEY", "sk-friend-01-8b3f9a47e9b14e2db1a7f5cae3d912a1")
 API_BASE = "https://api.akashiverse.com/v1"
 API_MODEL_LIST = "https://api.akashiverse.com/v1/models"
 API_ENDPOINT = "https://api.akashiverse.com/v1/chat/completions"
-MODEL = "google/gemini-2.5-pro"  # Changed from gpt-5 to gpt-5-mini for faster responses
+MODEL = "gpt-4o"  # Changed from gpt-5 to gpt-5-mini for faster responses
 DEVELOPER_URL = "https://t.me/rystrix_xd"
 COMMUNITY_URL = "https://t.me/BrahMosAI"
 
