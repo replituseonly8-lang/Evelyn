@@ -16,11 +16,11 @@ OWNER_USERNAMES = {"Rystrix", "Rystrix_XD"}
 BOT_NAMES = {"anikah", "anika", "Anikah", "Anika", "Ani", "ani", "anu", "Anu", "Anuh" , "anuh"}
 
 # API endpoints and model
-API_KEY = os.getenv("API_KEY", "sk-friend-01-8b3f9a47e9b14e2db1a7f5cae3d912a1")
+API_KEY = os.getenv("API_KEY", "sk-friend-02-3a4f2e9c8d7b6a5f4e3d2c1b0a9f8e7d")
 API_BASE = "https://api.akashiverse.com/v1"
 API_MODEL_LIST = "https://api.akashiverse.com/v1/models"
 API_ENDPOINT = "https://api.akashiverse.com/v1/chat/completions"
-MODEL = "gpt-4o"  # Changed from gpt-5 to gpt-5-mini for faster responses
+MODEL = "stream/gpt-4o"  
 DEVELOPER_URL = "https://t.me/rystrix_xd"
 COMMUNITY_URL = "https://t.me/BrahMosAI"
 
